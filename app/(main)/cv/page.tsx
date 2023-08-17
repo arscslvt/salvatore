@@ -17,7 +17,7 @@ export default function CV() {
         <p className="font-medium">To read my CV continue on read.cv.</p>
         <div className="flex gap-4 flex-wrap">
           <Link
-            href={"https://read.cv/salvatore"}
+            href={"https://salvatore.read.cv/"}
             target="_blank"
             className="max-w-max"
           >
