@@ -81,10 +81,12 @@ const Item = ({ item }: { item: Item }) => {
         </span>
         <Button
           size={"sm"}
+          variant={"link"}
           disabled={item.fiverrLink ? false : true}
           onClick={() =>
             item.fiverrLink ? window.open(item.fiverrLink, "_blank") : null
           }
+          className="px-0 !h-5 !py-0 hover:no-underline border-b-[1.4px] hover:border-green-400 border-foreground-muted rounded-none"
         >
           {item.fiverrLink ? (
             <>
