@@ -1,3 +1,11 @@
+import NowPlaying from "@/components/now-playing";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 import React from "react";
 
 export default function Introduction() {
@@ -18,6 +26,13 @@ export default function Introduction() {
         cornerstone of my fulfilling journey towards a{" "}
         <u className="underline-offset-4">thriving career</u>.
       </p>
+
+      <div className="flex flex-col pt-8">
+        <div className="pb-4">
+          <h2 className="text-muted-foreground">my other stuff</h2>
+        </div>
+        <NowPlaying />
+      </div>
     </div>
   );
 }
