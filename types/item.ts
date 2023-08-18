@@ -3,7 +3,7 @@ interface Item {
   description?: string;
   startingPrice: number;
   image?: string;
-  fiverr_link?: string;
+  fiverrLink?: string;
 
   categories?: string[];
 

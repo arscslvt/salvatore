@@ -79,8 +79,14 @@ const Item = ({ item }: { item: Item }) => {
         <span className="text-sm text-slate-500">
           from ${item.startingPrice}
         </span>
-        <Button size={"sm"} disabled={item.fiverr_link ? false : true}>
-          {item.fiverr_link ? (
+        <Button
+          size={"sm"}
+          disabled={item.fiverrLink ? false : true}
+          onClick={() =>
+            item.fiverrLink ? window.open(item.fiverrLink, "_blank") : null
+          }
+        >
+          {item.fiverrLink ? (
             <>
               View on
               <SiFiverr className="h-9 w-max ml-[4px] inline-flex pb-[1px] text-green-400" />
