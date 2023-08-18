@@ -89,7 +89,7 @@ const Item = ({ item }: { item: Item }) => {
           {item.fiverrLink ? (
             <>
               View on
-              <SiFiverr className="h-9 w-max ml-[4px] inline-flex pb-[1px] text-green-400" />
+              <SiFiverr className="h-max w-[2.1rem] ml-1 inline-flex pb-[1px] text-green-400" />
             </>
           ) : (
             "Not available"
