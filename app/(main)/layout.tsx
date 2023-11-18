@@ -96,7 +96,7 @@ const Footer = () => {
         </Link>
         <span className="text-slate-300">—</span>
         <Link
-          href={"https://x.com/dumbveloper"}
+          href={"https://x.com/SalvatoreAresco"}
           className="hover:after:content-['_↗'] after:text-xs"
         >
           X <span className="text-xs text-slate-500">(formerly Twitter)</span>
